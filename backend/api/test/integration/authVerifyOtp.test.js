@@ -24,6 +24,7 @@ vi.mock('../../src/config/db.js', () => ({
     }),
   },
   redisClient: null,
+  firebaseAdmin: null,
 }));
 
 vi.mock('../../src/middleware/rateLimiter.js', () => ({
